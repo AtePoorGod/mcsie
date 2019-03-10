@@ -1,0 +1,18 @@
+{
+  "id": "铁路尽头_300,67,258",
+  "name": "铁路尽头",
+  "icon": "waypoint-normal.png",
+  "x": 300,
+  "y": 67,
+  "z": 258,
+  "r": 102,
+  "g": 176,
+  "b": 50,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

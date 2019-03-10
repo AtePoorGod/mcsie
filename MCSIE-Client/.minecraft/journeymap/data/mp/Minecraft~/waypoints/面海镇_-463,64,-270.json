@@ -1,0 +1,18 @@
+{
+  "id": "面海镇_-463,64,-270",
+  "name": "面海镇",
+  "icon": "waypoint-normal.png",
+  "x": -463,
+  "y": 64,
+  "z": -270,
+  "r": 0,
+  "g": 0,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

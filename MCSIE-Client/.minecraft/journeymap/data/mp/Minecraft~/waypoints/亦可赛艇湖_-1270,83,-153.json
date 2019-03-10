@@ -1,0 +1,18 @@
+{
+  "id": "亦可赛艇湖_-1270,83,-153",
+  "name": "亦可赛艇湖",
+  "icon": "waypoint-normal.png",
+  "x": -1270,
+  "y": 83,
+  "z": -153,
+  "r": 1,
+  "g": 35,
+  "b": 253,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

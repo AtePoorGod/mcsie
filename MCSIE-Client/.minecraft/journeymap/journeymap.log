@@ -1,0 +1,52 @@
+[21:24:00] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[21:24:00] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[21:24:01] [Client thread/INFO] [?] Version: JourneyMap 5.2.4 Unlimited, built with Forge 12.18.0.2002
+Forge: 12.18.1.2011
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_CN, locale=zh_cn
+Unlimited Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.2.4, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showBiome=true, entityIconSetName=3D, enabled=true, showPlayerHeading=true, showVillagers=false, sizePercent=30, showLocation=true, textureSmall=true, showMobs=true, showPets=false, showFps=true, preferredMapType=topo, showCompass=true, showReticle=true, orientation=, shape=圆形, showSelf=true, locationFormat=xzyv, showGrid=true, reticleOrientation=罗盘模式, showCaves=false, showWaypoints=true, showAnimals=false, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, fontScale=2}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.2.4, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showBiome=true, entityIconSetName=2D, enabled=false, showPlayerHeading=true, showVillagers=true, sizePercent=30, showLocation=true, textureSmall=true, showMobs=true, showPets=true, showFps=false, preferredMapType=night, showCompass=true, showReticle=true, orientation=North, shape=矩形, showSelf=true, locationFormat=xzyv, showGrid=true, reticleOrientation=罗盘模式, showCaves=true, showWaypoints=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, fontScale=2}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.2.4, zoomLevel=0, showPlayers=false, showSelf=true, locationFormat=xzyv, showGrid=false, entityIconSetName=2D, showPlayerHeading=true, showVillagers=false, showCaves=true, showWaypoints=true, showAnimals=false, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, textureSmall=true, showMobs=false, showPets=false, fontScale=2, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.2.4, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, showStaticBeam=true, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.2.4, zoomLevel=0, showPlayers=true, showSelf=true, showGrid=true, entityIconSetName=3D, enabled=true, showVillagers=true, showWaypoints=true, port=10000, showAnimals=true, showMobs=true, showPets=true, googleMapApiDomain=.cn, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.2.4, radarLateralDistance=64, maxPlayersData=32, mapSurfaceAboveCaves=true, mapBathymetry=false, mapCrops=true, maxMobsData=32, optionsManagerViewed=5.2.4, announceMod=false, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=false, browserPoll=9583, mappingEnabled=true, renderOverlayEventTypeName=ALL, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, renderDistanceSurfaceMax=7, tileRenderType=1, caveIgnoreGlass=false, mapTopography=true, renderDistanceCaveMax=3, radarVerticalDistance=16, mapAntialiasing=true, cachePlayersData=2000, recordCacheStats=true, cacheMobsData=3000, hideSneakingEntities=true, renderDistanceSurfaceMin=4, cachePlayerData=1000, splashViewed=5.2.4, revealShape=圆形, renderDistanceCaveMin=3, cacheAnimalsData=3100, themeName=Purist, alwaysMapSurface=false, mapCaveLighting=true, mapPlants=false, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=7185}
+[21:24:01] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.2
+[21:24:01] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[21:24:01] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[21:24:04] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[21:24:04] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChatEventHandler registered in MinecraftForgeBus
+[21:24:04] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.StateTickHandler registered in FMLCommonHandlerBus
+[21:24:04] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WorldEventHandler registered in MinecraftForgeBus
+[21:24:04] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChunkUpdateHandler registered in MinecraftForgeBus
+[21:24:04] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WaypointBeaconHandler registered in MinecraftForgeBus
+[21:24:04] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.TextureAtlasHandler registered in MinecraftForgeBus
+[21:24:04] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[21:24:04] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.MiniMapOverlayHandler registered in MinecraftForgeBus
+[21:24:04] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.KeyEventHandler registered in FMLCommonHandlerBus
+[21:24:04] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[21:24:05] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
+[21:24:05] [Client thread/WARN] [WebServer] Port 10000 already in use
+[21:24:05] [Client thread/INFO] [WebServer] Webserver will use port 10010 for this session
+[21:24:05] [Client thread/INFO] [WebServer] Started webserver on port 10010
+[21:24:05] [Client thread/INFO] [VersionCheck] Update check disabled in properties file.
+[21:24:05] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r883.25§8ms§r
+[21:24:47] [Client thread/INFO] [ColorManager] Loading blocks and textures...
+[21:24:47] [Client thread/INFO] [BlockMD] Built BlockMD cache (15193) : BlockMD.reset count 1 avg 395.84ms
+[21:24:47] [Client thread/INFO] [ColorHelper_1_8] initBlocksTexture: 2048x2048 loaded in 175.693944ms
+[21:24:47] [Client thread/INFO] [ColorPalette] Existing color palette's resource packs and mod names match current loadout.
+[21:24:48] [Client thread/INFO] [ColorManager] Loaded 1195 block colors from color palette file in 18ms: C:\Users\siysun\Documents\McSIE第一版\McSIE-Client-1.10.2-forge1.10.2-12.18.1.2011\.minecraft\journeymap\colorpalette.json
+[21:24:48] [Client thread/INFO] [ColorManager] Initialized 14080 block colors from mods and resource packs in 832ms
+[21:24:48] [Client thread/INFO] [ColorPalette] Color palette file generated with 1196 colors in 149ms for: C:\Users\siysun\Documents\McSIE第一版\McSIE-Client-1.10.2-forge1.10.2-12.18.1.2011\.minecraft\journeymap\colorpalette.json
+[21:24:48] [Client thread/INFO] [ColorManager] Updated color palette file: C:\Users\siysun\Documents\McSIE第一版\McSIE-Client-1.10.2-forge1.10.2-12.18.1.2011\.minecraft\journeymap\colorpalette.json
+[21:25:31] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:25:31] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:25:32] [Client thread/INFO] [WaypointStore] Loaded 17 waypoints from C:\Users\siysun\Documents\McSIE第一版\McSIE-Client-1.10.2-forge1.10.2-12.18.1.2011\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[21:25:32] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[21:25:32] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\siysun\Documents\McSIE第一版\McSIE-Client-1.10.2-forge1.10.2-12.18.1.2011\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 2473MB total, 1519MB free 
+[21:27:03] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\siysun\Documents\McSIE第一版\McSIE-Client-1.10.2-forge1.10.2-12.18.1.2011\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[21:27:05] [JM-svr-2/INFO] [WebServer] Stopped webserver without errors

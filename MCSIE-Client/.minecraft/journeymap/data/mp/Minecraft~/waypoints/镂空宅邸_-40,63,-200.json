@@ -1,0 +1,18 @@
+{
+  "id": "镂空宅邸_-40,63,-200",
+  "name": "镂空宅邸",
+  "icon": "waypoint-normal.png",
+  "x": -40,
+  "y": 63,
+  "z": -200,
+  "r": 255,
+  "g": 0,
+  "b": 11,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

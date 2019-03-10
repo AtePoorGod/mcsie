@@ -1,0 +1,15 @@
+[2019-03-10 21:25:30 pool-2-thread-1 INFO] CustomSkinLoader 13.9
+[2019-03-10 21:25:30 pool-2-thread-1 INFO] DataDir: C:\Users\siysun\Documents\McSIE第一版\McSIE-Client-1.10.2-forge1.10.2-12.18.1.2011\.minecraft\CustomSkinLoader
+[2019-03-10 21:25:30 pool-2-thread-1 INFO] Minecraft: 1.10.2
+[2019-03-10 21:25:30 pool-2-thread-1 INFO] Config File: C:\Users\siysun\Documents\McSIE第一版\McSIE-Client-1.10.2-forge1.10.2-12.18.1.2011\.minecraft\CustomSkinLoader\CustomSkinLoader.json
+[2019-03-10 21:25:30 pool-2-thread-1 INFO] Try to load config.
+[2019-03-10 21:25:30 pool-2-thread-1 INFO] Successfully load config.
+[2019-03-10 21:25:30 pool-2-thread-1 INFO] Enable:true, EnableCache:true, EnableSkull:true, EnableTranSkin:false, LoadList:4
+[2019-03-10 21:25:30 sillin INFO] Loading sillin's profile.
+[2019-03-10 21:25:30 sillin INFO] 1/4 Try to load profile from 'Mojang'.
+[2019-03-10 21:25:30 sillin INFO] Try to read 'https://api.mojang.com/users/profiles/minecraft/sillin'
+[2019-03-10 21:25:32 sillin INFO] Successfully read (Response Code: 200 , Content Length: 57)
+[2019-03-10 21:25:32 sillin INFO] Try to read 'https://sessionserver.mojang.com/session/minecraft/profile/19c7a01041b04cd49e04ca3b7b13c502'
+[2019-03-10 21:25:33 sillin INFO] Successfully read (Response Code: 200 , Content Length: 447)
+[2019-03-10 21:25:33 sillin INFO] sillin's profile loaded.
+[2019-03-10 21:25:33 sillin INFO] (SkinUrl: http://textures.minecraft.net/texture/d2c14fb92977e311a2837c4a6870f0e963c8b7123be7f3f2d51a9c08a1b29a05 , Model: slim , CapeUrl: null)

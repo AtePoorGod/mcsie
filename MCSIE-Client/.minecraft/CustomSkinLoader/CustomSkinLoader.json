@@ -1,0 +1,28 @@
+{
+  "version": "13.9",
+  "enable": true,
+  "enableCache": true,
+  "enableSkull": true,
+  "enableTransparentSkin": false,
+  "loadlist": [
+    {
+      "name": "Mojang",
+      "type": "MojangAPI"
+    },
+    {
+      "name": "SkinMe",
+      "type": "UniSkinAPI",
+      "root": "http://www.skinme.cc/uniskin/"
+    },
+    {
+      "name": "BlessingSkin",
+      "type": "CustomSkinAPI",
+      "root": "https://skin.prinzeugen.net/csl/"
+    },
+    {
+      "name": "McSkin",
+      "type": "CustomSkinAPI",
+      "root": "http://www.mcskin.cc/"
+    }
+  ]
+}

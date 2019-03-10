@@ -1,0 +1,15 @@
+[2019-03-10 21:23:02 main INFO] Using ForgeTweaker
+[2019-03-10 21:23:02 main INFO] ForgeTweaker: acceptOptions
+[2019-03-10 21:23:02 main INFO] ForgeTweaker: injectIntoClassLoader
+[2019-03-10 21:23:02 main INFO] ClassTransformer Begin
+[2019-03-10 21:23:02 main INFO] Jar File URL: file:/C:/Users/siysun/Documents/McSIE第一版/McSIE-Client-1.10.2-forge1.10.2-12.18.1.2011/.minecraft/mods/%5B皮肤%5DCustomSkinLoader_1.10-13.11-snapshot201607031933.jar
+[2019-03-10 21:23:02 main INFO] Classes: bxk$a.class bxk.class boi.class bxk$1.class bxk$2.class bxk$3$1.class bxk$3.class
+[2019-03-10 21:23:02 main INFO] ClassTransformer Registered
+[2019-03-10 21:23:06 main INFO] ForgeTweaker: getLaunchArguments
+[2019-03-10 21:23:30 Client thread INFO] Class 'bxk'(net.minecraft.client.resources.SkinManager) transformed.
+[2019-03-10 21:23:30 Client thread INFO] Class 'bxk$1'(net.minecraft.client.resources.SkinManager$1) transformed.
+[2019-03-10 21:25:03 Client thread INFO] Class 'boi'(net.minecraft.client.renderer.ImageBufferDownload) transformed.
+[2019-03-10 21:25:07 Client thread INFO] Class 'bxk$a'(net.minecraft.client.resources.SkinManager$SkinAvailableCallback) transformed.
+[2019-03-10 21:25:30 Client thread INFO] Class 'bxk$3'(net.minecraft.client.resources.SkinManager$3) transformed.
+[2019-03-10 21:25:33 pool-2-thread-1 INFO] Class 'bxk$3$1'(net.minecraft.client.resources.SkinManager$3$1) transformed.
+[2019-03-10 21:25:33 Client thread INFO] Class 'bxk$2'(net.minecraft.client.resources.SkinManager$2) transformed.

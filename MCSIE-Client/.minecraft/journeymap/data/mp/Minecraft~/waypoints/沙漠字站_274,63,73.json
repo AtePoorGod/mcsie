@@ -1,0 +1,18 @@
+{
+  "id": "沙漠字站_274,63,73",
+  "name": "沙漠字站",
+  "icon": "waypoint-normal.png",
+  "x": 274,
+  "y": 63,
+  "z": 73,
+  "r": 102,
+  "g": 176,
+  "b": 50,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

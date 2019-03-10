@@ -1,0 +1,18 @@
+{
+  "id": "瞭望塔_-1350,117,-254",
+  "name": "瞭望塔",
+  "icon": "waypoint-normal.png",
+  "x": -1350,
+  "y": 117,
+  "z": -254,
+  "r": 255,
+  "g": 0,
+  "b": 7,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "村口站_-111,63,-54",
+  "name": "村口站",
+  "icon": "waypoint-normal.png",
+  "x": -111,
+  "y": 63,
+  "z": -54,
+  "r": 102,
+  "g": 176,
+  "b": 50,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

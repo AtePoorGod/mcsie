@@ -1,0 +1,335 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  BCModPlugin (Backpacks-1.10.2.jar)
+  FMLPlugin (InventoryTweaks-1.61-58.jar)
+  IC2core (Industrial-Craft-2-Mod-Experimental-1.10.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Don't be sad, have a hug! <3
+
+Time: 16-8-15 下午7:46
+Description: Watching Server
+
+java.lang.Error
+	at net.minecraft.world.chunk.Chunk.func_177435_g(Chunk.java:465)
+	at net.minecraft.world.chunk.Chunk.func_177436_a(Chunk.java:532)
+	at net.minecraft.world.World.func_180501_a(World.java:329)
+	at net.minecraft.world.gen.feature.WorldGenMinable.func_180709_b(WorldGenMinable.java:79)
+	at net.minecraft.world.biome.BiomeDecorator.func_76795_a(BiomeDecorator.java:419)
+	at net.minecraft.world.biome.BiomeDecorator.func_76797_b(BiomeDecorator.java:380)
+	at net.minecraft.world.biome.BiomeDecorator.func_150513_a(BiomeDecorator.java:96)
+	at net.minecraft.world.biome.BiomeDecorator.func_180292_a(BiomeDecorator.java:88)
+	at net.minecraft.world.biome.Biome.func_180624_a(Biome.java:223)
+	at net.minecraft.world.biome.BiomeJungle.func_180624_a(BiomeJungle.java:68)
+	at net.minecraft.world.gen.ChunkProviderOverworld.func_185931_b(ChunkProviderOverworld.java:452)
+	at net.minecraft.world.chunk.Chunk.func_186034_a(Chunk.java:1000)
+	at net.minecraft.world.chunk.Chunk.func_186030_a(Chunk.java:974)
+	at net.minecraft.world.gen.ChunkProviderServer.func_186025_d(ChunkProviderServer.java:157)
+	at net.minecraft.server.management.PlayerChunkMapEntry.func_187268_a(PlayerChunkMapEntry.java:126)
+	at net.minecraft.server.management.PlayerChunkMap.func_72693_b(SourceFile:147)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:221)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:698)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at net.minecraft.world.chunk.Chunk.func_177435_g(Chunk.java:465)
+	at net.minecraft.world.chunk.Chunk.func_177436_a(Chunk.java:532)
+	at net.minecraft.world.World.func_180501_a(World.java:329)
+	at net.minecraft.world.gen.feature.WorldGenMinable.func_180709_b(WorldGenMinable.java:79)
+	at net.minecraft.world.biome.BiomeDecorator.func_76795_a(BiomeDecorator.java:419)
+	at net.minecraft.world.biome.BiomeDecorator.func_76797_b(BiomeDecorator.java:380)
+	at net.minecraft.world.biome.BiomeDecorator.func_150513_a(BiomeDecorator.java:96)
+	at net.minecraft.world.biome.BiomeDecorator.func_180292_a(BiomeDecorator.java:88)
+	at net.minecraft.world.biome.Biome.func_180624_a(Biome.java:223)
+	at net.minecraft.world.biome.BiomeJungle.func_180624_a(BiomeJungle.java:68)
+	at net.minecraft.world.gen.ChunkProviderOverworld.func_185931_b(ChunkProviderOverworld.java:452)
+	at net.minecraft.world.chunk.Chunk.func_186034_a(Chunk.java:1000)
+	at net.minecraft.world.chunk.Chunk.func_186030_a(Chunk.java:974)
+	at net.minecraft.world.gen.ChunkProviderServer.func_186025_d(ChunkProviderServer.java:157)
+	at net.minecraft.server.management.PlayerChunkMapEntry.func_187268_a(PlayerChunkMapEntry.java:126)
+	at net.minecraft.server.management.PlayerChunkMap.func_72693_b(SourceFile:147)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:221)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:698)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613)
+
+-- Thread Dump --
+Details:
+	Threads: "Chunk I/O Executor Thread-1" Id=54 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2843a588
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2843a588
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Netty Server IO #2" Id=36 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@26845ef0
+	-  locked java.util.Collections$UnmodifiableSet@22bbcef8
+	-  locked sun.nio.ch.WindowsSelectorImpl@67b954cb
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+	...
+
+
+"Netty Server IO #1" Id=35 RUNNABLE (in native)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@52e3c251
+	-  locked java.util.Collections$UnmodifiableSet@56147523
+	-  locked sun.nio.ch.WindowsSelectorImpl@2aa4bd17
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+	...
+
+
+"File IO Thread" Id=53 RUNNABLE
+	at java.util.zip.Deflater.deflateBytes(Native Method)
+	at java.util.zip.Deflater.deflate(Unknown Source)
+	-  locked java.util.zip.ZStreamRef@796ab84
+	at java.util.zip.Deflater.deflate(Unknown Source)
+	at java.util.zip.DeflaterOutputStream.deflate(Unknown Source)
+	at java.util.zip.DeflaterOutputStream.finish(Unknown Source)
+	at java.util.zip.DeflaterOutputStream.close(Unknown Source)
+	at java.io.FilterOutputStream.close(Unknown Source)
+	at java.io.FilterOutputStream.close(Unknown Source)
+	...
+
+
+"Server Watchdog" Id=51 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:46)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"ic2-poolthread-2" Id=50 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@4bab106d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@4bab106d
+	at java.lang.Object.wait(Unknown Source)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Netty Server IO #0" Id=34 RUNNABLE (in native)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@3ee3d956
+	-  locked java.util.Collections$UnmodifiableSet@31a09798
+	-  locked sun.nio.ch.WindowsSelectorImpl@3d8d0a3
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+	...
+
+
+"ic2-poolthread-1" Id=33 WAITING on ic2.core.util.PriorityExecutor$FixedPriorityQueue@4bab106d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on ic2.core.util.PriorityExecutor$FixedPriorityQueue@4bab106d
+	at java.lang.Object.wait(Unknown Source)
+	at ic2.core.util.PriorityExecutor$FixedPriorityQueue.take(PriorityExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"DestroyJavaVM" Id=29 RUNNABLE
+
+
+"Server console handler" Id=28 RUNNABLE (in native)
+	at org.fusesource.jansi.internal.Kernel32.ReadConsoleInputW(Native Method)
+	at org.fusesource.jansi.internal.Kernel32.readConsoleInputHelper(Kernel32.java:761)
+	at org.fusesource.jansi.internal.Kernel32.readConsoleKeyInput(Kernel32.java:794)
+	at org.fusesource.jansi.internal.WindowsSupport.readConsoleInput(WindowsSupport.java:97)
+	at jline.WindowsTerminal.readConsoleInput(WindowsTerminal.java:214)
+	at jline.WindowsTerminal.access$000(WindowsTerminal.java:54)
+	at jline.WindowsTerminal$1.read(WindowsTerminal.java:156)
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:166)
+	-  locked jline.internal.NonBlockingInputStream@106390cd
+	...
+
+
+"Server thread" Id=26 RUNNABLE
+	at net.minecraft.world.chunk.Chunk.func_177435_g(Chunk.java:465)
+	at net.minecraft.world.chunk.Chunk.func_177436_a(Chunk.java:532)
+	at net.minecraft.world.World.func_180501_a(World.java:329)
+	at net.minecraft.world.gen.feature.WorldGenMinable.func_180709_b(WorldGenMinable.java:79)
+	at net.minecraft.world.biome.BiomeDecorator.func_76795_a(BiomeDecorator.java:419)
+	at net.minecraft.world.biome.BiomeDecorator.func_76797_b(BiomeDecorator.java:380)
+	at net.minecraft.world.biome.BiomeDecorator.func_150513_a(BiomeDecorator.java:96)
+	at net.minecraft.world.biome.BiomeDecorator.func_180292_a(BiomeDecorator.java:88)
+	...
+
+
+"TimerQueue" Id=24 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5439f3c
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5439f3c
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at java.util.concurrent.DelayQueue.take(Unknown Source)
+	at javax.swing.TimerQueue.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@306ad2fe
+
+
+"Thread-6" Id=23 RUNNABLE
+	at java.security.AccessController.getStackAccessControlContext(Native Method)
+	at java.security.AccessController.getContext(Unknown Source)
+	at java.awt.AWTEvent.<init>(Unknown Source)
+	at java.awt.event.InvocationEvent.<init>(Unknown Source)
+	at java.awt.event.InvocationEvent.<init>(Unknown Source)
+	at java.awt.EventQueue.invokeLater(Unknown Source)
+	at javax.swing.SwingUtilities.invokeLater(Unknown Source)
+	at net.minecraft.server.gui.MinecraftServerGui.func_164247_a(MinecraftServerGui.java:174)
+	...
+
+
+"AWT-EventQueue-0" Id=22 RUNNABLE
+	at sun.java2d.loops.DrawGlyphListLCD.DrawGlyphListLCD(Native Method)
+	at sun.java2d.pipe.LCDTextRenderer.drawGlyphList(Unknown Source)
+	at sun.java2d.pipe.GlyphListPipe.drawChars(Unknown Source)
+	at sun.java2d.pipe.ValidatePipe.drawChars(Unknown Source)
+	at sun.java2d.SunGraphics2D.drawChars(Unknown Source)
+	at sun.swing.SwingUtilities2.drawChars(Unknown Source)
+	at javax.swing.text.Utilities.drawTabbedText(Unknown Source)
+	at javax.swing.text.Utilities.drawTabbedText(Unknown Source)
+	...
+
+
+"AWT-Windows" Id=20 RUNNABLE (in native)
+	at sun.awt.windows.WToolkit.eventLoop(Native Method)
+	at sun.awt.windows.WToolkit.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"AWT-Shutdown" Id=19 WAITING on java.lang.Object@4cb21fc1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@4cb21fc1
+	at java.lang.Object.wait(Unknown Source)
+	at sun.awt.AWTAutoShutdown.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Java2D Disposer" Id=18 WAITING on java.lang.ref.ReferenceQueue$Lock@2a29c98b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@2a29c98b
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at sun.java2d.Disposer.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Server Infinisleeper" Id=17 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:78)
+
+
+"Snooper Timer" Id=16 TIMED_WAITING on java.util.TaskQueue@338a098d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@338a098d
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+
+"NonBlockingInputStreamThread" Id=14 WAITING on jline.internal.NonBlockingInputStream@106390cd owned by "Server console handler" Id=28
+	at java.lang.Object.wait(Native Method)
+	-  waiting on jline.internal.NonBlockingInputStream@106390cd
+	at jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:275)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Attach Listener" Id=5 RUNNABLE
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@2b1ef1f1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@2b1ef1f1
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@778ebf44
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@778ebf44
+	at java.lang.Object.wait(Unknown Source)
+	at java.lang.ref.Reference.tryHandlePending(Unknown Source)
+	at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:63)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_101, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 434380312 bytes (414 MB) / 713555968 bytes (680 MB) up to 954728448 bytes (910 MB)
+	JVM Flags: 2 total; -Xms512M -Xmx1024M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.32 Powered by Forge 12.18.1.2011 13 mods loaded, 13 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.10.2-12.18.1.2011-universal.jar) 
+	UCHIJAAAA	Forge{12.18.1.2011} [Minecraft Forge] (forge-1.10.2-12.18.1.2011-universal.jar) 
+	UCHIJAAAA	backpacks16840{3.1.1} [Backpacks!] (Backpacks-1.10.2.jar) 
+	UCHIJAAAA	JEI{3.7.5.230} [Just Enough Items] ([物品管理器]jei_1.10.2-3.7.5.230-CN.jar) 
+	UCHIJAAAA	yarrmateys_cutemobmodels{1.0.13} [Yarr Cute Mob Models - Remake] (Cute-Mob-Models-1.10.2.jar) 
+	UCHIJAAAA	forestry{5.1.8.189} [Forestry] (forestry_1.10.2-5.1.8.189.jar) 
+	UCHIJAAAA	IC2{2.6.16-ex110} [IndustrialCraft 2] (Industrial-Craft-2-Mod-Experimental-1.10.2.jar) 
+	UCHIJAAAA	inventorytweaks{1.61-58-a1fd884} [Inventory Tweaks] (InventoryTweaks-1.61-58.jar) 
+	UCHIJAAAA	lucky{7.3.0} [Lucky Block] (LuckyBlock_1-10-2_v7-3-0.zip) 
+	UCHIJAAAA	mfs{4.0.0} [Minecraft Flight Simulator] (Minecraft Flight Simulator-1.10.2-4.0.0.jar) 
+	UCHIJAAAA	realdrops{1.0.5} [Realistic Item Drops] (Realistic-Item-Drops-1.10.2.jar) 
+	UCHIJAAAA	trashslot{6.3.2} [TrashSlot] (TrashSlot_1.10.2-6.3.2.jar) 
+	Loaded coremods (and transformers): 
+BCModPlugin (Backpacks-1.10.2.jar)
+  brad16840.common.asm.ClassTransformer
+FMLPlugin (InventoryTweaks-1.61-58.jar)
+  invtweaks.forge.asm.ContainerTransformer
+IC2core (Industrial-Craft-2-Mod-Experimental-1.10.2.jar)
+  
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [EntityPlayerMP['op123'/207, l='world', x=-3379.08, y=103.17, z=-852.88]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

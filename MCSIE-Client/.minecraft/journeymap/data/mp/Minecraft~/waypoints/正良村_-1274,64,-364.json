@@ -1,0 +1,18 @@
+{
+  "id": "正良村_-1274,64,-364",
+  "name": "正良村",
+  "icon": "waypoint-normal.png",
+  "x": -1274,
+  "y": 64,
+  "z": -364,
+  "r": 253,
+  "g": 83,
+  "b": 8,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

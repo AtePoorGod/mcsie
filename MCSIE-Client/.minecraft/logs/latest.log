@@ -1,0 +1,440 @@
+[21:23:07] [Client thread/INFO]: Setting user: sillin
+[21:23:14] [Client thread/WARN]: Skipping bad option: lastServer:
+[21:23:14] [Client thread/INFO]: LWJGL Version: 2.9.4
+[21:23:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Backpacks!, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Neat, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Yarr Cute Mob Models - Remake, FMLFileResourcePack:Forestry, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Lucky Block, FMLFileResourcePack:Minecraft Flight Simulator, FMLFileResourcePack:Realistic Item Drops, FMLFileResourcePack:TrashSlot, Faithful 1.10.2
+[21:23:38] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:23:38] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[21:23:38] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:23:39] [Thread-9/INFO]: OpenAL initialized.
+[21:23:39] [Sound Library Loader/INFO]: Sound engine started
+[21:23:56] [Client thread/INFO]: Created: 16x16 textures-atlas
+[21:24:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Backpacks!, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Neat, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Yarr Cute Mob Models - Remake, FMLFileResourcePack:Forestry, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Lucky Block, FMLFileResourcePack:Minecraft Flight Simulator, FMLFileResourcePack:Realistic Item Drops, FMLFileResourcePack:TrashSlot, Faithful 1.10.2
+[21:24:13] [Client thread/INFO]: SoundSystem shutting down...
+[21:24:13] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[21:24:13] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:24:13] [Thread-13/INFO]: Initializing LWJGL OpenAL
+[21:24:13] [Thread-13/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:24:13] [Thread-13/INFO]: OpenAL initialized.
+[21:24:13] [Sound Library Loader/INFO]: Sound engine started
+[21:24:27] [Client thread/ERROR]: Using missing texture, unable to load ic2:textures/blocks/fluid/heavy_water_flow.png, java.io.FileNotFoundException
+[21:24:27] [Client thread/ERROR]: Using missing texture, unable to load ic2:textures/blocks/fluid/heavy_water_still.png, java.io.FileNotFoundException
+[21:24:27] [Client thread/ERROR]: Using missing texture, unable to load ic2:textures/blocks/generator/electric/creative_generator_top.png, java.io.FileNotFoundException
+[21:24:27] [Client thread/ERROR]: Using missing texture, unable to load ic2:textures/blocks/fluid/oxygen_still.png, java.io.FileNotFoundException
+[21:24:28] [Client thread/ERROR]: Using missing texture, unable to load ic2:textures/blocks/generator/electric/creative_generator_bottom.png, java.io.FileNotFoundException
+[21:24:28] [Client thread/ERROR]: Using missing texture, unable to load ic2:textures/blocks/generator/electric/creative_generator_side_active.png, java.io.FileNotFoundException
+[21:24:28] [Client thread/ERROR]: Using missing texture, unable to load ic2:textures/blocks/generator/electric/creative_generator_side.png, java.io.FileNotFoundException
+[21:24:29] [Client thread/ERROR]: Using missing texture, unable to load ic2:textures/blocks/fluid/hydrogen_still.png, java.io.FileNotFoundException
+[21:24:29] [Client thread/INFO]: Created: 2048x2048 textures-atlas
+[21:24:37] [Client thread/WARN]: Skipping bad option: lastServer:
+[21:25:02] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
+[21:25:07] [Client thread/INFO]: [CHAT] InvTweaks: 配置文件已载入
+[21:25:28] [Client thread/INFO]: [CHAT] 新的§eOptiFine§f版本现已可用：§eHD Ultra E7§f
+[21:25:28] [Client thread/INFO]: [CHAT] [Shaders] Error: Invalid program "gbuffers_textured_lit"
+[21:25:39] [Client thread/INFO]: [CHAT] This server does not have TrashSlot installed. It will be disabled.
+[21:25:55] [Texture Downloader #2/ERROR]: Couldn't download http textureConnection timed out: connect
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147284_a(NetHandlerPlayClient.java:510) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntityMetadata.func_148833_a(SourceFile:41) ~[hp.class:?]
+	at net.minecraft.network.play.server.SPacketEntityMetadata.func_148833_a(SourceFile:11) ~[hp.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147290_a(NetHandlerPlayClient.java:1945) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntityProperties.func_148833_a(SourceFile:70) ~[ih.class:?]
+	at net.minecraft.network.play.server.SPacketEntityProperties.func_148833_a(SourceFile:15) ~[ih.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntity.func_149065_a(SourceFile:161) ~[gy.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147259_a(NetHandlerPlayClient.java:588) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntity.func_148833_a(SourceFile:152) ~[gy.class:?]
+	at net.minecraft.network.play.server.SPacketEntity$S17PacketEntityLookMove.func_148833_a(SourceFile:25) ~[gy$b.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_149381_a(SourceFile:42) ~[hk.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147267_a(NetHandlerPlayClient.java:612) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_148833_a(SourceFile:38) ~[hk.class:?]
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_148833_a(SourceFile:11) ~[hk.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147284_a(NetHandlerPlayClient.java:510) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntityMetadata.func_148833_a(SourceFile:41) ~[hp.class:?]
+	at net.minecraft.network.play.server.SPacketEntityMetadata.func_148833_a(SourceFile:11) ~[hp.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147290_a(NetHandlerPlayClient.java:1945) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntityProperties.func_148833_a(SourceFile:70) ~[ih.class:?]
+	at net.minecraft.network.play.server.SPacketEntityProperties.func_148833_a(SourceFile:15) ~[ih.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_149381_a(SourceFile:42) ~[hk.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147267_a(NetHandlerPlayClient.java:612) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_148833_a(SourceFile:38) ~[hk.class:?]
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_148833_a(SourceFile:11) ~[hk.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntity.func_149065_a(SourceFile:161) ~[gy.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147259_a(NetHandlerPlayClient.java:588) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntity.func_148833_a(SourceFile:152) ~[gy.class:?]
+	at net.minecraft.network.play.server.SPacketEntity$S15PacketEntityRelMove.func_148833_a(SourceFile:67) ~[gy$a.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntity.func_149065_a(SourceFile:161) ~[gy.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147259_a(NetHandlerPlayClient.java:588) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntity.func_148833_a(SourceFile:152) ~[gy.class:?]
+	at net.minecraft.network.play.server.SPacketEntity$S17PacketEntityLookMove.func_148833_a(SourceFile:25) ~[gy$b.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_149381_a(SourceFile:42) ~[hk.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147267_a(NetHandlerPlayClient.java:612) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_148833_a(SourceFile:38) ~[hk.class:?]
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_148833_a(SourceFile:11) ~[hk.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntity.func_149065_a(SourceFile:161) ~[gy.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147259_a(NetHandlerPlayClient.java:588) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntity.func_148833_a(SourceFile:152) ~[gy.class:?]
+	at net.minecraft.network.play.server.SPacketEntity$S15PacketEntityRelMove.func_148833_a(SourceFile:67) ~[gy$a.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_149381_a(SourceFile:42) ~[hk.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147267_a(NetHandlerPlayClient.java:612) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_148833_a(SourceFile:38) ~[hk.class:?]
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_148833_a(SourceFile:11) ~[hk.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntity.func_149065_a(SourceFile:161) ~[gy.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147259_a(NetHandlerPlayClient.java:588) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntity.func_148833_a(SourceFile:152) ~[gy.class:?]
+	at net.minecraft.network.play.server.SPacketEntity$S17PacketEntityLookMove.func_148833_a(SourceFile:25) ~[gy$b.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_149381_a(SourceFile:42) ~[hk.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147267_a(NetHandlerPlayClient.java:612) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_148833_a(SourceFile:38) ~[hk.class:?]
+	at net.minecraft.network.play.server.SPacketEntityHeadLook.func_148833_a(SourceFile:11) ~[hk.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntity.func_149065_a(SourceFile:161) ~[gy.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147259_a(NetHandlerPlayClient.java:588) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntity.func_148833_a(SourceFile:152) ~[gy.class:?]
+	at net.minecraft.network.play.server.SPacketEntity$S15PacketEntityRelMove.func_148833_a(SourceFile:67) ~[gy$a.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.network.play.server.SPacketEntity.func_149065_a(SourceFile:161) ~[gy.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147259_a(NetHandlerPlayClient.java:588) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketEntity.func_148833_a(SourceFile:152) ~[gy.class:?]
+	at net.minecraft.network.play.server.SPacketEntity$S15PacketEntityRelMove.func_148833_a(SourceFile:67) ~[gy$a.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1045) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147287_a(NetHandlerPlayClient.java:698) ~[bll.class:?]
+	at net.minecraft.network.play.server.SPacketMultiBlockChange.func_148833_a(SourceFile:53) ~[gd.class:?]
+	at net.minecraft.network.play.server.SPacketMultiBlockChange.func_148833_a(SourceFile:13) ~[gd.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_60]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
+	... 9 more
+[21:27:04] [Client thread/INFO]: Stopping!
+[21:27:04] [Client thread/INFO]: SoundSystem shutting down...
+[21:27:05] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

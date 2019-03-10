@@ -1,0 +1,150 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  BCModPlugin (Backpacks-1.10.2.jar)
+  FMLPlugin (InventoryTweaks-1.61-58.jar)
+  IC2core (Industrial-Craft-2-Mod-Experimental-1.10.2.jar)
+Contact their authors BEFORE contacting forge
+
+// I bet Cylons wouldn't have this problem.
+
+Time: 17-3-18 ÏÂÎç2:39
+Description: Tesselating block model
+
+java.lang.OutOfMemoryError: Tesselating block model
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at java.nio.DirectByteBuffer.<init>(Unknown Source)
+	at java.nio.ByteBuffer.allocateDirect(Unknown Source)
+	at net.minecraft.client.renderer.GLAllocation.func_74524_c(SourceFile:41)
+	at net.minecraft.client.renderer.VertexBuffer.func_181670_b(VertexBuffer.java:89)
+	at net.minecraft.client.renderer.VertexBuffer.func_178981_a(VertexBuffer.java:573)
+	at net.minecraft.client.renderer.BlockModelRenderer.renderQuadsSmooth(BlockModelRenderer.java:280)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187498_b(BlockModelRenderer.java:130)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.func_187498_b(ForgeBlockModelRenderer.java:107)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:89)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:65)
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:81)
+	at net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b(RenderChunk.java:274)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.func_178474_a(ChunkRenderWorker.java:119)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(ChunkRenderWorker.java:47)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at java.nio.DirectByteBuffer.<init>(Unknown Source)
+	at java.nio.ByteBuffer.allocateDirect(Unknown Source)
+	at net.minecraft.client.renderer.GLAllocation.func_74524_c(SourceFile:41)
+	at net.minecraft.client.renderer.VertexBuffer.func_181670_b(VertexBuffer.java:89)
+	at net.minecraft.client.renderer.VertexBuffer.func_178981_a(VertexBuffer.java:573)
+	at net.minecraft.client.renderer.BlockModelRenderer.renderQuadsSmooth(BlockModelRenderer.java:280)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187498_b(BlockModelRenderer.java:130)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.func_187498_b(ForgeBlockModelRenderer.java:107)
+
+-- Block model being tesselated --
+Details:
+	Block: minecraft:leaves[check_decay=false,decayable=true,variant=oak]
+	Block location: World: (-48,75,-85), Chunk: (at 0,4,11 in -3,-6; contains blocks -48,0,-96 to -33,255,-81), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Using AO: true
+Stacktrace:
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:89)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:65)
+
+-- Block being tesselated --
+Details:
+	Block type: ID #18 (tile.leaves // net.minecraft.block.BlockOldLeaf)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (-48,75,-85), Chunk: (at 0,4,11 in -3,-6; contains blocks -48,0,-96 to -33,255,-81), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+Stacktrace:
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:81)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['sillin'/225, l='MpServer', x=-48.73, y=95.78, z=-185.52]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (43,65,-39), Chunk: (at 11,4,9 in 2,-3; contains blocks 32,0,-48 to 47,255,-33), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Level time: 485943 game time, 417136 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 130 total; [EntityPlayerSP['sillin'/225, l='MpServer', x=-48.73, y=95.78, z=-185.52], EntityPainting['»­'/228, l='MpServer', x=-144.50, y=52.00, z=-117.97], EntityCreeper['ÅÀÐÐÕß'/3077, l='MpServer', x=-81.50, y=52.00, z=-244.50], EntityCreeper['ÅÀÐÐÕß'/3078, l='MpServer', x=-80.50, y=52.00, z=-246.50], EntitySkeleton['÷¼÷Ã'/2312, l='MpServer', x=-125.50, y=42.00, z=-184.50], EntitySkeleton['÷¼÷Ã'/2313, l='MpServer', x=-124.50, y=42.00, z=-183.50], EntitySkeleton['÷¼÷Ã'/2314, l='MpServer', x=-125.50, y=42.00, z=-188.50], EntityZombie['½©Ê¬'/523, l='MpServer', x=7.50, y=52.03, z=-245.87], EntitySkeleton['÷¼÷Ã'/2315, l='MpServer', x=-121.50, y=42.00, z=-183.50], EntityCreeper['ÅÀÐÐÕß'/2316, l='MpServer', x=-117.51, y=45.00, z=-188.22], EntitySkeleton['÷¼÷Ã'/3596, l='MpServer', x=30.50, y=55.00, z=-142.50], EntityMinecartEmpty['entity.MinecartRideable.name'/274, l='MpServer', x=-126.65, y=49.00, z=-119.50], EntitySkeleton['÷¼÷Ã'/2074, l='MpServer', x=-29.51, y=55.00, z=-151.27], EntityCow['Å£'/288, l='MpServer', x=-103.52, y=55.00, z=-235.82], EntityZombie['½©Ê¬'/289, l='MpServer', x=-101.41, y=55.00, z=-237.83], EntitySkeleton['÷¼÷Ã'/1062, l='MpServer', x=-120.50, y=41.00, z=-174.50], EntityEnderman['Ä©Ó°ÈË'/1065, l='MpServer', x=29.50, y=53.00, z=-113.50], EntityBat['òùòð'/3373, l='MpServer', x=-54.40, y=34.24, z=-242.60], EntityMinecartEmpty['entity.MinecartRideable.name'/51, l='MpServer', x=-59.95, y=57.00, z=-130.09], EntityMinecartEmpty['entity.MinecartRideable.name'/52, l='MpServer', x=-61.51, y=57.00, z=-128.98], EntityMinecartEmpty['entity.MinecartRideable.name'/53, l='MpServer', x=-61.51, y=57.00, z=-130.31], EntityMinecartEmpty['entity.MinecartRideable.name'/54, l='MpServer', x=-60.00, y=57.00, z=-130.00], EntityCreeper['ÅÀÐÐÕß'/2112, l='MpServer', x=-105.50, y=14.00, z=-240.50], EntityPainting['»­'/243, l='MpServer', x=-142.97, y=52.00, z=-121.00], EntityPainting['»­'/244, l='MpServer', x=-143.50, y=52.00, z=-117.97], EntityWolf['ÀÇ'/328, l='MpServer', x=-29.93, y=58.00, z=-175.08], EntityWolf['ÀÇ'/329, l='MpServer', x=-30.83, y=58.00, z=-175.08], EntityOcelot['Ã¨'/330, l='MpServer', x=-29.93, y=58.00, z=-172.54], EntityOcelot['Ã¨'/331, l='MpServer', x=-29.93, y=58.00, z=-173.35], EntityOcelot['Ã¨'/332, l='MpServer', x=-30.83, y=58.00, z=-174.21], EntitySkeleton['÷¼÷Ã'/2124, l='MpServer', x=-5.50, y=65.00, z=-113.50], EntityOcelot['Ã¨'/333, l='MpServer', x=-31.64, y=58.00, z=-174.67], EntityOcelot['Ã¨'/334, l='MpServer', x=-31.80, y=58.00, z=-173.24], EntityBat['òùòð'/336, l='MpServer', x=27.07, y=56.10, z=-212.79], EntityCow['Å£'/338, l='MpServer', x=-93.51, y=58.00, z=-222.52], EntityMinecartEmpty['entity.MinecartRideable.name'/83, l='MpServer', x=-46.58, y=65.00, z=-115.63], EntityZombie['½©Ê¬'/84, l='MpServer', x=-32.51, y=49.00, z=-105.73], EntitySpider['Ö©Öë'/342, l='MpServer', x=-48.50, y=65.00, z=-114.50], EntityMinecartEmpty['entity.MinecartRideable.name'/348, l='MpServer', x=-58.50, y=47.06, z=-175.49], EntityMinecartEmpty['entity.MinecartRideable.name'/349, l='MpServer', x=-57.50, y=47.06, z=-169.49], EntitySpider['Ö©Öë'/351, l='MpServer', x=-75.96, y=54.00, z=-249.00], EntityCreeper['ÅÀÐÐÕß'/101, l='MpServer', x=-21.50, y=52.00, z=-130.50], EntityCreeper['ÅÀÐÐÕß'/105, l='MpServer', x=-28.50, y=50.00, z=-112.50], EntityItemLoot['item.tile.stonebricksmooth.mossy'/361, l='MpServer', x=-4.55, y=58.00, z=-197.69], EntitySpider['Ö©Öë'/362, l='MpServer', x=-19.58, y=58.00, z=-205.37], EntityCreeper['ÅÀÐÐÕß'/363, l='MpServer', x=-10.85, y=78.00, z=-207.47], EntityMinecartEmpty['entity.MinecartRideable.name'/365, l='MpServer', x=-9.50, y=92.06, z=-196.50], EntityMinecartEmpty['entity.MinecartRideable.name'/366, l='MpServer', x=-9.50, y=92.06, z=-197.50], EntityMinecartEmpty['entity.MinecartRideable.name'/367, l='MpServer', x=-9.50, y=92.06, z=-203.06], EntityMinecartEmpty['entity.MinecartRideable.name'/368, l='MpServer', x=-8.52, y=92.06, z=-205.50], EntityMinecartEmpty['entity.MinecartRideable.name'/369, l='MpServer', x=-9.50, y=92.06, z=-201.79], EntityMinecartEmpty['entity.MinecartRideable.name'/370, l='MpServer', x=-9.50, y=92.06, z=-200.09], EntityCreeper['ÅÀÐÐÕß'/2162, l='MpServer', x=26.50, y=55.00, z=-122.50], EntityMinecartEmpty['entity.MinecartRideable.name'/371, l='MpServer', x=-9.50, y=92.06, z=-198.48], EntityZombie['½©Ê¬'/2163, l='MpServer', x=27.50, y=55.00, z=-123.50], EntityCreeper['ÅÀÐÐÕß'/2164, l='MpServer', x=24.50, y=55.00, z=-120.50], EntityOcelot['Ã¨'/373, l='MpServer', x=-47.08, y=58.00, z=-174.15], EntityBat['òùòð'/3445, l='MpServer', x=-110.19, y=40.77, z=-242.01], EntityOcelot['Ã¨'/374, l='MpServer', x=-41.74, y=58.00, z=-175.08], EntityOcelot['Ã¨'/375, l='MpServer', x=-42.77, y=58.00, z=-175.08], EntityBat['òùòð'/1399, l='MpServer', x=-103.75, y=56.10, z=-237.47], EntityOcelot['Ã¨'/376, l='MpServer', x=-46.18, y=58.00, z=-175.08], EntityBat['òùòð'/1400, l='MpServer', x=-101.19, y=56.10, z=-238.37], EntityOcelot['Ã¨'/377, l='MpServer', x=-40.93, y=58.00, z=-175.08], EntitySkeleton['÷¼÷Ã'/122, l='MpServer', x=-8.72, y=54.00, z=-146.51], EntityOcelot['Ã¨'/378, l='MpServer', x=-40.93, y=58.00, z=-173.01], EntitySkeleton['÷¼÷Ã'/123, l='MpServer', x=-12.80, y=55.00, z=-140.50], EntityOcelot['Ã¨'/379, l='MpServer', x=-43.57, y=58.00, z=-175.08], EntityOcelot['Ã¨'/380, l='MpServer', x=-47.08, y=58.00, z=-173.08], EntitySkeleton['÷¼÷Ã'/125, l='MpServer', x=-12.50, y=55.00, z=-141.50], EntityOcelot['Ã¨'/381, l='MpServer', x=-47.08, y=58.00, z=-175.08], EntitySpider['Ö©Öë'/2429, l='MpServer', x=-106.30, y=38.10, z=-241.84], EntityWolf['ÀÇ'/382, l='MpServer', x=-36.08, y=58.00, z=-175.08], EntitySkeleton['÷¼÷Ã'/1406, l='MpServer', x=-75.50, y=55.00, z=-123.50], EntityCreeper['ÅÀÐÐÕß'/2430, l='MpServer', x=-106.70, y=36.00, z=-243.03], EntityWolf['ÀÇ'/383, l='MpServer', x=-36.08, y=58.00, z=-174.22], EntityWolf['ÀÇ'/384, l='MpServer', x=-35.22, y=58.00, z=-175.08], EntityWolf['ÀÇ'/385, l='MpServer', x=-36.08, y=58.00, z=-173.36], EntityOcelot['Ã¨'/386, l='MpServer', x=-35.12, y=58.00, z=-173.22], EntityOcelot['Ã¨'/387, l='MpServer', x=-34.27, y=58.00, z=-173.33], EntityOcelot['Ã¨'/388, l='MpServer', x=-33.54, y=58.00, z=-175.08], EntityOcelot['Ã¨'/389, l='MpServer', x=-36.08, y=58.00, z=-170.88], EntityOcelot['Ã¨'/390, l='MpServer', x=-35.21, y=58.00, z=-174.24], EntitySpider['Ö©Öë'/1414, l='MpServer', x=25.50, y=65.00, z=-118.50], EntityOcelot['Ã¨'/391, l='MpServer', x=-34.39, y=58.00, z=-174.36], EntityOcelot['Ã¨'/392, l='MpServer', x=-32.39, y=58.00, z=-174.28], EntityOcelot['Ã¨'/393, l='MpServer', x=-35.17, y=58.00, z=-170.48], EntityOcelot['Ã¨'/394, l='MpServer', x=-33.51, y=58.00, z=-172.82], EntityOcelot['Ã¨'/395, l='MpServer', x=-33.50, y=58.00, z=-174.20], EntityOcelot['Ã¨'/396, l='MpServer', x=-32.60, y=58.00, z=-175.08], EntityMinecartEmpty['entity.MinecartRideable.name'/397, l='MpServer', x=-60.44, y=58.06, z=-206.94], EntityPig['Öí'/142, l='MpServer', x=6.79, y=58.00, z=-138.39], EntityMinecartEmpty['entity.MinecartRideable.name'/398, l='MpServer', x=-60.51, y=47.06, z=-183.50], EntityMinecartEmpty['entity.MinecartRideable.name'/399, l='MpServer', x=-56.49, y=47.00, z=-190.51], EntitySkeleton['÷¼÷Ã'/3215, l='MpServer', x=-81.50, y=50.00, z=-258.50], EntityMinecartEmpty['entity.MinecartRideable.name'/400, l='MpServer', x=-58.50, y=47.06, z=-177.88], EntityMinecartEmpty['entity.MinecartRideable.name'/401, l='MpServer', x=-56.49, y=47.00, z=-189.26], EntityMinecartEmpty['entity.MinecartRideable.name'/402, l='MpServer', x=-56.51, y=47.00, z=-188.07], EntityMinecartEmpty['entity.MinecartRideable.name'/403, l='MpServer', x=-56.50, y=47.06, z=-185.94], EntityCreeper['ÅÀÐÐÕß'/148, l='MpServer', x=29.49, y=50.00, z=-110.16], EntityMinecartEmpty['entity.MinecartRideable.name'/405, l='MpServer', x=-59.50, y=58.06, z=-208.96], EntitySkeleton['÷¼÷Ã'/667, l='MpServer', x=20.50, y=51.00, z=-105.73], EntitySkeleton['÷¼÷Ã'/931, l='MpServer', x=-17.28, y=58.00, z=-120.52], EntityCreeper['ÅÀÐÐÕß'/933, l='MpServer', x=-20.50, y=58.00, z=-123.50], EntityZombie['½©Ê¬'/1973, l='MpServer', x=-61.50, y=46.00, z=-242.50], EntityBat['òùòð'/437, l='MpServer', x=-0.89, y=24.85, z=-265.64], EntityWolf['ÀÇ'/438, l='MpServer', x=-21.59, y=54.34, z=-242.84], EntityZombie['½©Ê¬'/1974, l='MpServer', x=-61.50, y=46.00, z=-244.50], EntityPig['Öí'/439, l='MpServer', x=-26.53, y=54.24, z=-243.55], EntityBat['òùòð'/3011, l='MpServer', x=-74.53, y=55.01, z=-124.93], EntityZombie['½©Ê¬'/3529, l='MpServer', x=-113.50, y=16.00, z=-255.50], EntitySkeleton['÷¼÷Ã'/3530, l='MpServer', x=-118.50, y=16.00, z=-254.50], EntityBat['òùòð'/3531, l='MpServer', x=-59.89, y=51.99, z=-245.36], EntityZombie['½©Ê¬'/1740, l='MpServer', x=-50.65, y=58.00, z=-122.65], EntityBat['òùòð'/3532, l='MpServer', x=-59.75, y=52.93, z=-247.83], EntityWitch['Å®Î×'/3288, l='MpServer', x=-64.50, y=50.00, z=-249.50], EntityCreeper['ÅÀÐÐÕß'/2268, l='MpServer', x=-119.50, y=37.00, z=-199.50], EntityOcelot['±ªÃ¨'/481, l='MpServer', x=-31.50, y=65.00, z=-215.93], EntityPainting['»­'/228, l='MpServer', x=-144.50, y=52.00, z=-117.97], EntityItemFrame['entity.ItemFrame.name'/229, l='MpServer', x=-146.97, y=50.50, z=-88.50], EntityItemFrame['entity.ItemFrame.name'/230, l='MpServer', x=-146.97, y=50.50, z=-92.50], EntityItemFrame['entity.ItemFrame.name'/232, l='MpServer', x=-146.97, y=50.50, z=-96.50], EntityItemFrame['entity.ItemFrame.name'/233, l='MpServer', x=-146.97, y=50.50, z=-100.50], EntityItemFrame['entity.ItemFrame.name'/234, l='MpServer', x=-146.97, y=50.50, z=-104.50], EntityItemFrame['entity.ItemFrame.name'/242, l='MpServer', x=-138.03, y=55.50, z=-118.50], EntityPainting['»­'/243, l='MpServer', x=-142.97, y=52.00, z=-121.00], EntityPainting['»­'/244, l='MpServer', x=-143.50, y=52.00, z=-117.97], EntityMinecartEmpty['entity.MinecartRideable.name'/245, l='MpServer', x=-128.23, y=49.00, z=-119.49], EntityItemFrame['entity.ItemFrame.name'/250, l='MpServer', x=-143.03, y=50.50, z=-92.50], EntityItemFrame['entity.ItemFrame.name'/251, l='MpServer', x=-143.03, y=50.50, z=-88.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:496)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2660)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(ChunkRenderWorker.java:57)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 10 (x86) version 10.0
+	Java Version: 1.8.0_121, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 407424328 bytes (388 MB) / 1073741824 bytes (1024 MB) up to 1073741824 bytes (1024 MB)
+	JVM Flags: 6 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx1024m
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.32 Powered by Forge 12.18.1.2011 Optifine OptiFine_1.10.2_HD_U_C2_pre 15 mods loaded, 15 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.10.2-12.18.1.2011.jar) 
+	UCHIJA	Forge{12.18.1.2011} [Minecraft Forge] (forge-1.10.2-12.18.1.2011.jar) 
+	UCHIJA	backpacks16840{3.1.1} [Backpacks!] (Backpacks-1.10.2.jar) 
+	UCHIJA	journeymap{1.10.2-5.2.4} [JourneyMap] ([µØÍ¼]JourneyMap-Mod-1.10.2-Unlimited.jar) 
+	UCHIJA	Neat{GRADLE:VERSION-GRADLE:BUILD} [Neat] ([ÏÔÑª]Neat 1.3-10.jar) 
+	UCHIJA	JEI{3.7.5.230} [Just Enough Items] ([ÎïÆ·¹ÜÀíÆ÷]jei_1.10.2-3.7.5.230-CN.jar) 
+	UCHIJA	yarrmateys_cutemobmodels{1.0.13} [Yarr Cute Mob Models - Remake] (Cute-Mob-Models-1.10.2.jar) 
+	UCHIJA	forestry{5.1.8.189} [Forestry] (forestry_1.10.2-5.1.8.189.jar) 
+	UCHIJA	IC2{2.6.16-ex110} [IndustrialCraft 2] (Industrial-Craft-2-Mod-Experimental-1.10.2.jar) 
+	UCHIJA	inventorytweaks{1.61-58-a1fd884} [Inventory Tweaks] (InventoryTweaks-1.61-58.jar) 
+	UCHIJA	lucky{7.3.0} [Lucky Block] (LuckyBlock_1-10-2_v7-3-0.zip) 
+	UCHIJA	mfs{4.0.0} [Minecraft Flight Simulator] (Minecraft Flight Simulator-1.10.2-4.0.0.jar) 
+	UCHIJA	realdrops{1.0.5} [Realistic Item Drops] (Realistic-Item-Drops-1.10.2.jar) 
+	UCHIJA	trashslot{6.3.2} [TrashSlot] (TrashSlot_1.10.2-6.3.2.jar) 
+	Loaded coremods (and transformers): 
+BCModPlugin (Backpacks-1.10.2.jar)
+  brad16840.common.asm.ClassTransformer
+FMLPlugin (InventoryTweaks-1.61-58.jar)
+  invtweaks.forge.asm.ContainerTransformer
+IC2core (Industrial-Craft-2-Mod-Experimental-1.10.2.jar)
+  
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Launched Version: HMCL 2.5.1.79
+	LWJGL: 2.9.4
+	OpenGL: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: Faithful 1.10.2
+	Current Language: ¼òÌåÖÐÎÄ (ÖÐ¹ú)
+	Profiler Position: N/A (disabled)
+	CPU: 16x AMD Ryzen 7 1700 Eight-Core Processor 
+	OptiFine Version: OptiFine_1.10.2_HD_U_C2_pre
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.5.14008 Compatibility Profile Context 21.19.137.514
+	OpenGlRenderer: Radeon (TM) RX 480 Graphics
+	OpenGlVendor: ATI Technologies Inc.
+	CpuCount: 16

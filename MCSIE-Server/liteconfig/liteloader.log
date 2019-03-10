@@ -1,0 +1,37 @@
+[13:42:22] [main/INFO]: LiteLoader 1.10.2 starting up...
+[13:42:22] [main/INFO]: Active Pack: 1.10.2-SNAPSHOT-rAFDEB24-b3-3
+[13:42:22] [main/INFO]: Java reports OS="windows 7"
+[13:42:22] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[13:42:22] [main/INFO]: Enumerating class path...
+[13:42:22] [main/INFO]: Class path separator=";"
+[13:42:22] [main/INFO]: Class path entries=(
+   classpathEntry=forge-1.10.2-12.18.1.2011-universal.jar
+)
+[13:42:22] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[13:42:22] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Users\Amos\Desktop\server1.10-forge\mods]
+[13:42:22] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Users\Amos\Desktop\server1.10-forge\mods\1.10.2]
+[13:42:22] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@13cf7d52]
+[13:42:22] [main/INFO]: Discovering tweaks on class path...
+[13:42:22] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
+[13:42:22] [main/INFO]: Discovering valid mod files in folder mods
+[13:42:22] [main/INFO]: Inspecting jar metadata in 'InventoryTweaks-1.61-58.jar'
+[13:42:22] [main/INFO]: Ignoring C:\Users\Amos\Desktop\server1.10-forge\mods\InventoryTweaks-1.61-58.jar
+[13:42:22] [main/INFO]: Inspecting jar metadata in 'liteloader-1.10.2-SNAPSHOT-release.jar'
+[13:42:22] [main/INFO]: Ignoring C:\Users\Amos\Desktop\server1.10-forge\mods\liteloader-1.10.2-SNAPSHOT-release.jar
+[13:42:22] [main/INFO]: Considering valid mod file: C:\Users\Amos\Desktop\server1.10-forge\mods\mod_voxelMap_1.6.15_for_1.10.2.litemod
+[13:42:22] [main/INFO]: Inspecting jar metadata in 'OptiFine_1.10.2_HD_U_C2.jar'
+[13:42:22] [main/INFO]: Ignoring C:\Users\Amos\Desktop\server1.10-forge\mods\OptiFine_1.10.2_HD_U_C2.jar
+[13:42:22] [main/INFO]: Inspecting jar metadata in 'R键整理MOD.jar'
+[13:42:22] [main/INFO]: Ignoring C:\Users\Amos\Desktop\server1.10-forge\mods\R键整理MOD.jar
+[13:42:22] [main/INFO]: Ignoring C:\Users\Amos\Desktop\server1.10-forge\mods\twilightforest-1.19.0暮色森林.jar
+[13:42:22] [main/INFO]: Inspecting jar metadata in '工业.jar'
+[13:42:22] [main/INFO]: Ignoring C:\Users\Amos\Desktop\server1.10-forge\mods\工业.jar
+[13:42:22] [main/INFO]: Inspecting jar metadata in '建筑.jar'
+[13:42:22] [main/INFO]: Ignoring C:\Users\Amos\Desktop\server1.10-forge\mods\建筑.jar
+[13:42:22] [main/INFO]: Inspecting jar metadata in '林业.jar'
+[13:42:22] [main/INFO]: Ignoring C:\Users\Amos\Desktop\server1.10-forge\mods\林业.jar
+[13:42:22] [main/INFO]: Adding newest valid mod file 'C:\Users\Amos\Desktop\server1.10-forge\mods\mod_voxelMap_1.6.15_for_1.10.2.litemod' at revision 1615.0000
+[13:42:22] [main/INFO]: Discovering valid mod files in folder mods\1.10.2
+[13:42:22] [main/INFO]: Registering mixin config mixins.voxelmap.json for mod_voxelMap_1.6.15_for_1.10.2.litemod
+[13:42:22] [main/INFO]: Initialising LiteLoader Mixins
+[13:42:22] [main/INFO]: LiteLoader PREINIT complete

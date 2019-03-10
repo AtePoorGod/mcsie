@@ -1,0 +1,243 @@
+[13:52:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:52:51] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:52:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:53:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:53:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:53:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:56:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:56:56] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:56:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:03:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:03:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:03:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:17:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:17:13] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:17:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:19:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:19:48] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:19:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:27:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:27:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:27:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:30:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:30:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:30:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:17:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:17:43] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:17:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:31:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:31:38] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:31:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:41:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:41:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:41:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:46:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:46:46] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:46:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:11:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:11:00] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:11:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:24:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:24:33] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:24:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:38:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:38:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:38:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=147, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=158, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=157, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=156, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=155, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=149, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=148, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=166, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=162, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=161, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=160, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=159, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=165, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=164, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=163, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=144, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=145, description=null, lastImageUpdate=0, lastBound=0}
+[16:48:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=146, description=null, lastImageUpdate=0, lastBound=0}
+[16:53:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:53:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:53:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:56:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:56:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:56:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:08:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:08:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:08:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:19:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:19:43] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:19:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:51:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:51:08] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:51:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:23:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:23:57] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:23:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:12:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:12:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:12:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=103, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=102, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=101, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=100, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=99, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=98, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=111, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=107, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=106, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=105, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=104, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=110, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=109, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=108, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=94, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=95, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=96, description=null, lastImageUpdate=0, lastBound=0}
+[20:24:34] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=97, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=103, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=102, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=101, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=100, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=99, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=98, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=111, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=107, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=106, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=105, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=104, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=110, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=109, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=108, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=94, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=95, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=96, description=null, lastImageUpdate=0, lastBound=0}
+[20:25:55] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=97, description=null, lastImageUpdate=0, lastBound=0}
+[23:13:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:13:15] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:13:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:18:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:18:51] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:18:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:15:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:15:24] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:15:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=185, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=190, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=189, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=188, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=187, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=186, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=198, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=194, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=193, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=192, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=191, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=197, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=196, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=195, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=181, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=182, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=183, description=null, lastImageUpdate=0, lastBound=0}
+[19:44:48] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=184, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=207, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=208, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=206, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=205, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=204, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=203, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=216, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=212, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=211, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=210, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=209, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=215, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=214, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=213, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=199, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=200, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=201, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:07] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=202, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=195, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=184, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=183, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=182, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=181, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=196, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=197, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=191, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=192, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=193, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=194, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=198, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=185, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=186, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=187, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=188, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=189, description=null, lastImageUpdate=0, lastBound=0}
+[19:45:11] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=190, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=190, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=189, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=188, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=187, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=186, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=185, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=198, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=194, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=193, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=192, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=191, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=197, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=196, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=195, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=181, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=182, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=183, description=null, lastImageUpdate=0, lastBound=0}
+[19:49:46] [Finalizer/WARN] [journeymap]: TextureImpl disposed without deleting texture glID: TextureImpl{glid=184, description=null, lastImageUpdate=0, lastBound=0}
+[21:49:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:49:47] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:49:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:16:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:16:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:16:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:32:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:32:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:32:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:04:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:04:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:04:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:37:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:37:42] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:37:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:53:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:53:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:53:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:27:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:27:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:27:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:29:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:29:06] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:29:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:35:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:35:08] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:35:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:07:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:07:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:07:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:13:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:13:30] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:13:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:16:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:16:36] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:16:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:19:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:19:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:19:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:22:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:22:59] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:22:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
